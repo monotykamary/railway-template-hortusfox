@@ -1,5 +1,7 @@
 # HortusFox on Railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hortusfox?referralCode=ZqgrJ0)
+
 Deploy HortusFox 5.9 with generated administrator and MariaDB credentials, durable uploads, and daily-backed-up storage.
 
 The Deploy on Railway button is added after the published route is verified.
