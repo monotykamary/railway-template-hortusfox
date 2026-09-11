@@ -17,7 +17,7 @@ Sign in using `APP_ADMIN_EMAIL` and the generated `APP_ADMIN_PASSWORD` service v
 ### Deployment Dependencies
 
 - HortusFox web service with a daily-backed-up data volume
-- Private MariaDB 11.8.5 with a daily-backed-up database volume
+- Private MariaDB 11.8.9 with a daily-backed-up database volume
 - Optional external SMTP and plant information providers
 
 ### Implementation Details

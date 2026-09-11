@@ -9,7 +9,7 @@ The Deploy on Railway button is added after the published route is verified.
 ## What this deploys
 
 - HortusFox `v5.9`, pinned to its official Linux/AMD64 GHCR image digest
-- MariaDB `11.8.5`, pinned to its official Linux/AMD64 digest
+- MariaDB `11.8.9`, pinned to its official Linux/AMD64 digest
 - Generated administrator password and database credentials
 - One app-data volume plus one database volume, both with daily backups
 
