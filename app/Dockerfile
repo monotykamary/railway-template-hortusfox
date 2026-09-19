@@ -1,4 +1,4 @@
-FROM ghcr.io/danielbrendel/hortusfox-web:v5.9@sha256:04fe9851ced2ab9c30431eb113a53c5088f5958b137e9587342036e01e87a8a0
+FROM ghcr.io/danielbrendel/hortusfox-web:v6.1@sha256:dfe8ad32d41b67074a8fc7ae6196926f96a63acb319199344320697b1183f992
 
 RUN cp /usr/local/bin/docker-entrypoint.sh /usr/local/bin/hortusfox-upstream-entrypoint
 COPY entrypoint.sh /usr/local/bin/hortusfox-railway-entrypoint

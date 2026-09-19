@@ -2,13 +2,13 @@
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/hortusfox?referralCode=ZqgrJ0)
 
-Deploy HortusFox 5.9 with generated administrator and MariaDB credentials, durable uploads, and daily-backed-up storage.
+Deploy HortusFox 6.1 with generated administrator and MariaDB credentials, durable uploads, and daily-backed-up storage.
 
 The Deploy on Railway button is added after the published route is verified.
 
 ## What this deploys
 
-- HortusFox `v5.9`, pinned to its official Linux/AMD64 GHCR image digest
+- HortusFox `v6.1`, pinned to its official Linux/AMD64 GHCR image digest
 - MariaDB `11.8.9`, pinned to its official Linux/AMD64 digest
 - Generated administrator password and database credentials
 - One app-data volume plus one database volume, both with daily backups
@@ -30,7 +30,8 @@ Upstream's Compose deployment mounts six writable directories. Railway can prese
 
 ## Updating
 
-Update HortusFox and MariaDB tags and digests deliberately, review migrations, take backups, then repeat fresh install, login, location/plant workflows, upload persistence, database persistence, and redeploy soak tests.
+Upstream's entrypoint copies its migrations into the app and applies them on boot, so an in-place
+image bump migrates the existing database. Update HortusFox and MariaDB tags and digests deliberately, review migrations, take backups, then repeat fresh install, login, location/plant workflows, upload persistence, database persistence, and redeploy soak tests.
 
 ## Validation
 
@@ -41,8 +42,8 @@ BASE_URL=https://your-domain.example ADMIN_EMAIL=admin@example.com ADMIN_PASSWOR
 
 ## Upstream
 
-- Source: https://github.com/danielbrendel/hortusfox-web/tree/v5.9
-- Release: https://github.com/danielbrendel/hortusfox-web/releases/tag/v5.9
+- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.1
+- Release: https://github.com/danielbrendel/hortusfox-web/releases/tag/v6.1
 - Documentation: https://www.hortusfox.com/documentation
 - License: MIT
 

@@ -2,8 +2,8 @@
 
 ## HortusFox
 
-- Version: 5.9
-- Source: https://github.com/danielbrendel/hortusfox-web/tree/v5.9
+- Version: 6.1
+- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.1
 - Copyright: 2023-2026 Daniel Brendel and contributors
 - License: MIT
 
