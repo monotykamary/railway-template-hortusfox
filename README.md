@@ -8,7 +8,7 @@ The Deploy on Railway button is added after the published route is verified.
 
 ## What this deploys
 
-- HortusFox `v6.1`, pinned to its official Linux/AMD64 GHCR image digest
+- HortusFox `v6.2`, pinned to its official Linux/AMD64 GHCR image digest
 - MariaDB `11.8.9`, pinned to its official Linux/AMD64 digest
 - Generated administrator password and database credentials
 - One app-data volume plus one database volume, both with daily backups
@@ -42,8 +42,8 @@ BASE_URL=https://your-domain.example ADMIN_EMAIL=admin@example.com ADMIN_PASSWOR
 
 ## Upstream
 
-- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.1
-- Release: https://github.com/danielbrendel/hortusfox-web/releases/tag/v6.1
+- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.2
+- Release: https://github.com/danielbrendel/hortusfox-web/releases/tag/v6.2
 - Documentation: https://www.hortusfox.com/documentation
 - License: MIT
 
