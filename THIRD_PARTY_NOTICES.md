@@ -3,7 +3,7 @@
 ## HortusFox
 
 - Version: 6.1
-- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.2
+- Source: https://github.com/danielbrendel/hortusfox-web/tree/v6.3
 - Copyright: 2023-2026 Daniel Brendel and contributors
 - License: MIT
 
