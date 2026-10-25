@@ -11,6 +11,6 @@
 
 ## MariaDB
 
-- Version: 11.8.9
+- Version: 13.0.2
 - Source: https://github.com/MariaDB/server
 - License: GPL-2.0
